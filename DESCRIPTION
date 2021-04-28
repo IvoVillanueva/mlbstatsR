@@ -1,7 +1,7 @@
 Package: mlbstatsR
 Type: Package
 Title: Photos Logos and colors of MLB baseball
-Version: 0.1.0
+Version: 0.1.1
 Author: Ivan Villanueva
 Maintainer: Ivan Villanueva <ivan.v23@yahoo.com>
 Description: MLB data table with Photos logos and colors.
@@ -12,11 +12,20 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-imports: utils
-Suggests: 
-    dplyr,
+Imports: 
+         dplyr (>= 1.0),
+         tidyr (>= 1.0),
+         glue,  
+         purrr,
+         tibble,
+         utils,
+         jsonlite,
+         janitor
+Suggests:
+    tidyverse,
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
+

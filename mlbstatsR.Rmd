@@ -1,0 +1,29 @@
+---
+title: "mlbstatsR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{mlbstatsR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+Este es un package que tiene como objetivo facilitar las fotos de los jugadores, los logos, los colores y 
+estadisticas de los equipos y de los jugadores de la liga profesional de Baseball MLB, para visualizaciones y gráficas
+
+
+```{r eval=FALSE}
+library(mlbstatsR)
+get_mlb_teams()
+```
+```{r eval=FALSE}
+library(mlbstatsR)
+get_mlb_players()
+```
+```{r eval=FALSE}
+library(mlbstatsR)
+get_png_logos()
+```
+```{r eval=FALSE}
+library(mlbstatsR)
+get_mlb_bateo(year =2001 )
+```
+
