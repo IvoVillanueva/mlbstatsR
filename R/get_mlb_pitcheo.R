@@ -46,5 +46,6 @@ get_mlb_pitcheo<- function(year, quiet= FALSE){
           dplyr::select("year", "playerId", "playerName", "playerFirstName", "playerLastName", "playerUseName", "playerInitLastName", "teamId":"atBatsPerHomeRun") %>%
           janitor::clean_names()
 
-  return
+  return(df)
 }
+
