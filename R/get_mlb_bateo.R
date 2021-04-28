@@ -30,7 +30,7 @@ get_mlb_bateo <- function(year, quiet= FALSE){
   }
 
   if(isFALSE(quiet)){
-    message(glue::glue("Cargando {year} con 400 players"))
+    message(glue::glue("Cargando {year} con 425 players"))
   }
   urls <- paste0("https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=prod&season=",
                  year,"&sportId=1&stats=season&group=hitting&gameType=R&offset=",
