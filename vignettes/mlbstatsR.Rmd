@@ -24,6 +24,6 @@ get_png_logos()
 ```
 ```{r eval=FALSE}
 library(mlbstatsR)
-get_mlb_bateo(year =2001 )
+get_mlb_bateo(2001 )
 ```
 
