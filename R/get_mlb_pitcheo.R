@@ -29,7 +29,7 @@ get_mlb_pitcheo<- function(year, quiet= FALSE){
   }
 
   if(isFALSE(quiet)){
-    message(glue::glue("Cargando {year} con 400 players"))
+    message(glue::glue("Cargando {year} con 425 players"))
   }
 
 
