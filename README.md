@@ -70,6 +70,7 @@ get_mlb_pitcheo()
 <img width="973" alt="imagen_3" src="https://user-images.githubusercontent.com/56939175/117879226-01897400-b2a7-11eb-945a-b4bd6b079f98.png">
 
 > get_reference_players_mlb(1945, "batting", "value")
+``` r
 LOADING 1945 batting value from the index:
 'advanced', 'value', 'probability', 'ratio', 'baserunning', 'standard'
 'pitchesbatting', 'neutralizedbatting','situational', 'baserunning' o 'cumulative'
@@ -86,4 +87,4 @@ LOADING 1945 batting value from the index:
  8  1945 batting value      8     Luke Appling    38    CHW   18    70    7     0      0     -1     1     8     0.8   2     10    1.0   .546           .505           1.2   0.0   11    "$11,000" "Purchased"          6/H        
  9  1945 batting value      9     Joe Astroth     22    PHA   10    18    -3    0      0     -3     0     -5    -0.6  1     -5    -0.6  .438           .496           -0.2  -0.3  -2    "$2,400"  "Amateur Free Agent" /2H        
 10  1945 batting value      10    Jim Bagby       28    CLE   25    61    -1    0      0     0      5     5     0.6   0     5     0.6   .523           .504           0.6   0.0   5     "$10,200" "Traded"             1       
-
+```
