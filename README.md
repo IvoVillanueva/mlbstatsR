@@ -1,3 +1,4 @@
+<img width="980" alt="imagen_2" src="https://user-images.githubusercontent.com/56939175/117879109-d9017a00-b2a6-11eb-9ba3-32077da8ff65.png">
 # mlbstatsR
 
 El objetivo de mlbstatsR es recopilar y proporcionar estadisticas de jugadores y 
@@ -59,5 +60,11 @@ get_mlb_teams()
 > 
 ```
 get_png_logos()
-
 <img width="482" alt="imagen_1" src="https://user-images.githubusercontent.com/56939175/117878970-a8b9db80-b2a6-11eb-97a9-0671c7657b89.png">
+
+get_mlb_bateo()
+<img width="980" alt="imagen_2" src="https://user-images.githubusercontent.com/56939175/117879187-f59db200-b2a6-11eb-83bf-a648b8a7d2dc.png">
+
+get_mlb_pitcheo()
+<img width="973" alt="imagen_3" src="https://user-images.githubusercontent.com/56939175/117879226-01897400-b2a7-11eb-945a-b4bd6b079f98.png">
+
