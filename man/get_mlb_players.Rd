@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_mlb_players.R
 \name{get_mlb_players}
 \alias{get_mlb_players}
-\title{Photos & Logos & colors for MLB (baseball)}
+\title{Photos & Logos a& colors for MLB (baseball)}
 \usage{
 get_mlb_players()
 }
