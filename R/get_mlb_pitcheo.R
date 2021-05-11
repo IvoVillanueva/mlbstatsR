@@ -20,7 +20,7 @@ get_mlb_pitcheo<- function(year, quiet= FALSE){
 
   year <- as.numeric(year)
 
-  offset <- seq(0, 75, 25)
+  offset <- seq(0, 400, 25)
 
   current_year <- as.double(substr(Sys.Date(), 1, 4))
 
@@ -29,7 +29,7 @@ get_mlb_pitcheo<- function(year, quiet= FALSE){
   }
 
   if(isFALSE(quiet)){
-    message(glue::glue("Cargando {year} con 100 players"))
+    message(glue::glue("Cargando {year} con 425 players"))
   }
 
 
