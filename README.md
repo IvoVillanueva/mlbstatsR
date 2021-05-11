@@ -1,5 +1,10 @@
 
+
 # mlbstatsR
+![netratingmlb-01](https://user-images.githubusercontent.com/56939175/117880956-f6cfde80-b2a8-11eb-8d75-5c6948a7a284.png)
+
+![wardf_heads](https://user-images.githubusercontent.com/56939175/117881069-1a932480-b2a9-11eb-83dc-006fa0a1dcef.png)
+
 
 El objetivo de mlbstatsR es recopilar y proporcionar estadisticas de jugadores y 
 equipos, con fotos, logos y colores de la liga profesional de Baseball MLB
