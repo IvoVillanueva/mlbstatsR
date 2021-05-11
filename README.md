@@ -69,22 +69,21 @@ get_mlb_bateo()
 get_mlb_pitcheo()
 <img width="973" alt="imagen_3" src="https://user-images.githubusercontent.com/56939175/117879226-01897400-b2a7-11eb-945a-b4bd6b079f98.png">
 
-get_reference_players_mlb(1945, “batting”, “value”)
+> get_reference_players_mlb(1945, "batting", "value")
+LOADING 1945 batting value from the index:
+'advanced', 'value', 'probability', 'ratio', 'baserunning', 'standard'
+'pitchesbatting', 'neutralizedbatting','situational', 'baserunning' o 'cumulative'
+# A tibble: 547 x 27
+    year stats   stats_type rk    name            age   tm    g     pa    rbat  rbaser rdp   rfield rpos  raa   waa   rrep  rar   war   waa_wl_percent x162wl_percent o_war d_war o_rar salary    acquired             pos_summary
+   <dbl> <chr>   <chr>      <chr> <chr>           <chr> <chr> <chr> <chr> <chr> <chr>  <chr> <chr>  <chr> <chr> <chr> <chr> <chr> <chr> <chr>          <chr>          <chr> <chr> <chr> <chr>     <chr>                <chr>      
+ 1  1945 batting value      1     Ace Adams       35    NYG   65    20    -2    0      0     0      2     0     0.1   0     0     0.1   .501           .500           0.1   0.0   0     ""        "Rule 5 Draft"       1          
+ 2  1945 batting value      2     Buster Adams    30    2TM   154   707   15    0      1     -3     -2    11    1.1   21    32    3.2   .507           .507           3.5   -0.5  35    ""        "Traded"             *87/H      
+ 3  1945 batting value      3     Morrie Aderholt 29    2TM   70    174   -1    -1     1     1      -1    -2    -0.2  6     4     0.4   .498           .499           0.3   0.0   3     ""        "Traded"             H7/49      
+ 4  1945 batting value      4     Nate Andrews    31    BSN   22    53    -5    0      0     0      5     0     0.0   0     0     0.0   .499           .500           0.0   0.0   0     ""        "Traded"             1/H        
+ 5  1945 batting value      5     Stan Andrews    28    2TM   34    89    -4    1      0     -2     1     -4    -0.5  3     -2    -0.2  .486           .498           0.0   -0.1  0     ""        ""                   2/H        
+ 6  1945 batting value      6     John Antonelli  29    2TM   127   540   -16   -2     -1    -10    1     -28   -3.0  17    -11   -1.3  .477           .483           -0.2  -0.9  -1    ""        "Traded"             *54/H36    
+ 7  1945 batting value      7     Pete Appleton   41    2TM   8     5     0     0      0     0      0     0     0.0   0     0     0.0   .500           .500           0.0   0.0   0     "$9,200"  "Free Agency"        /1         
+ 8  1945 batting value      8     Luke Appling    38    CHW   18    70    7     0      0     -1     1     8     0.8   2     10    1.0   .546           .505           1.2   0.0   11    "$11,000" "Purchased"          6/H        
+ 9  1945 batting value      9     Joe Astroth     22    PHA   10    18    -3    0      0     -3     0     -5    -0.6  1     -5    -0.6  .438           .496           -0.2  -0.3  -2    "$2,400"  "Amateur Free Agent" /2H        
+10  1945 batting value      10    Jim Bagby       28    CLE   25    61    -1    0      0     0      5     5     0.6   0     5     0.6   .523           .504           0.6   0.0   5     "$10,200" "Traded"             1       
 
-A tibble: 547 x 27
-  year stats stats_type rk    name  age   tm    g     pa    rbat  rbaser rdp  
- <dbl> <chr> <chr>      <chr> <chr> <chr> <chr> <chr> <chr> <chr> <chr>  <chr>
-  1945 batt… value      1     Ace … 35    NYG   65    20    -2    0      0    
-  1945 batt… value      2     Bust… 30    2TM   154   707   15    0      1    
-  1945 batt… value      3     Morr… 29    2TM   70    174   -1    -1     1    
-  1945 batt… value      4     Nate… 31    BSN   22    53    -5    0      0    
-  1945 batt… value      5     Stan… 28    2TM   34    89    -4    1      0    
-  1945 batt… value      6     John… 29    2TM   127   540   -16   -2     -1   
-  1945 batt… value      7     Pete… 41    2TM   8     5     0     0      0    
-  1945 batt… value      8     Luke… 38    CHW   18    70    7     0      0    
-  1945 batt… value      9     Joe … 22    PHA   10    18    -3    0      0    
-  1945 batt… value      10    Jim … 28    CLE   25    61    -1    0      0    
-  with 537 more rows, and 15 more variables: rfield <chr>, rpos <chr>,
-  raa <chr>, waa <chr>, rrep <chr>, rar <chr>, war <chr>,
-  waa_wl_percent <chr>, x162wl_percent <chr>, o_war <chr>, d_war <chr>,
-  o_rar <chr>, salary <chr>, acquired <chr>, pos_summary <chr>
