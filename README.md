@@ -69,3 +69,22 @@ get_mlb_bateo()
 get_mlb_pitcheo()
 <img width="973" alt="imagen_3" src="https://user-images.githubusercontent.com/56939175/117879226-01897400-b2a7-11eb-945a-b4bd6b079f98.png">
 
+get_reference_players_mlb(1945, “batting”, “value”)
+
+## # A tibble: 547 x 27
+##     year stats stats_type rk    name  age   tm    g     pa    rbat  rbaser rdp  
+##    <dbl> <chr> <chr>      <chr> <chr> <chr> <chr> <chr> <chr> <chr> <chr>  <chr>
+##  1  1945 batt… value      1     Ace … 35    NYG   65    20    -2    0      0    
+##  2  1945 batt… value      2     Bust… 30    2TM   154   707   15    0      1    
+##  3  1945 batt… value      3     Morr… 29    2TM   70    174   -1    -1     1    
+##  4  1945 batt… value      4     Nate… 31    BSN   22    53    -5    0      0    
+##  5  1945 batt… value      5     Stan… 28    2TM   34    89    -4    1      0    
+##  6  1945 batt… value      6     John… 29    2TM   127   540   -16   -2     -1   
+##  7  1945 batt… value      7     Pete… 41    2TM   8     5     0     0      0    
+##  8  1945 batt… value      8     Luke… 38    CHW   18    70    7     0      0    
+##  9  1945 batt… value      9     Joe … 22    PHA   10    18    -3    0      0    
+## 10  1945 batt… value      10    Jim … 28    CLE   25    61    -1    0      0    
+## # … with 537 more rows, and 15 more variables: rfield <chr>, rpos <chr>,
+## #   raa <chr>, waa <chr>, rrep <chr>, rar <chr>, war <chr>,
+## #   waa_wl_percent <chr>, x162wl_percent <chr>, o_war <chr>, d_war <chr>,
+## #   o_rar <chr>, salary <chr>, acquired <chr>, pos_summary <chr>
