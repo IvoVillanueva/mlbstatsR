@@ -1,4 +1,4 @@
-<img width="980" alt="imagen_2" src="https://user-images.githubusercontent.com/56939175/117879109-d9017a00-b2a6-11eb-9ba3-32077da8ff65.png">
+
 # mlbstatsR
 
 El objetivo de mlbstatsR es recopilar y proporcionar estadisticas de jugadores y 
