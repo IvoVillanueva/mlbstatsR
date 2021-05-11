@@ -15,7 +15,7 @@
 #'
   get_png_logos <- function() {
   message("4 MLB ESPN logos in png!")
-  team_url <- "http://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams"
+  team_url <- "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams?&limit=50"
   raw_teams <- jsonlite::fromJSON(team_url)
 
      dm <-  purrr::pluck(raw_teams,
@@ -25,10 +25,10 @@
                          1,
                          "team") %>%
       dplyr::as_tibble() %>%
-      dplyr::mutate(logoDefault = purrr::map_chr(logos, function(df) df[1, 1]),
-                    logoDark = purrr::map_chr(logos, function(df) df[2, 1]),
-                    logoScoreboard = purrr::map_chr(logos, function(df) df[3, 1]),
-                    logoDarkScoreboard = purrr::map_chr(logos, function(df) df[4, 1])
+      dplyr::mutate("logoDefault" = purrr::map_chr(.data$logos, function(df) df[1, 1]),
+                    "logoDark" = purrr::map_chr(.data$logos, function(df) df[2, 1]),
+                    "logoScoreboard" = purrr::map_chr(.data$logos, function(df) df[3, 1]),
+                    "logoDarkScoreboard" = purrr::map_chr(.data$logos, function(df) df[4, 1])
                     ) %>%
       dplyr::select("id",
                     "slug",
@@ -50,4 +50,4 @@
 return(dm)
 }
 
-
+pr <- get_png_logos()
