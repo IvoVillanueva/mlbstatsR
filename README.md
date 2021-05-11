@@ -60,6 +60,7 @@ get_mlb_teams()
 > 
 ```
 get_png_logos()
+
 <img width="482" alt="imagen_1" src="https://user-images.githubusercontent.com/56939175/117878970-a8b9db80-b2a6-11eb-97a9-0671c7657b89.png">
 
 get_mlb_bateo()
