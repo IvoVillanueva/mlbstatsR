@@ -23,7 +23,7 @@ mlb_player_full <- function(year = year_actual, stats= "hitting", season_type = 
   
   year_actual <- as.double(substr(Sys.Date(), 1, 4))
   
-  offset <- seq(0, 75, 25)
+  offset <- seq(0, 375, 25)
   
   if (!dplyr::between (as.numeric(year), 1903, year_actual)) {
     stop(paste("Por favor escoge un year entre 1903 y ", year_actual))
