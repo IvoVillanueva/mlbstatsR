@@ -74,7 +74,7 @@ get_mlb_bateo()
 get_mlb_pitcheo()
 <img width="973" alt="imagen_3" src="https://user-images.githubusercontent.com/56939175/117879226-01897400-b2a7-11eb-945a-b4bd6b079f98.png">
 
-> get_reference_players_mlb(1945, "batting", "value")
+> get_reference_players_mlb( 1945, "batting", "value")
 ``` r
 LOADING 1945 batting value from the index:
 'advanced', 'value', 'probability', 'ratio', 'baserunning', 'standard'
@@ -92,4 +92,22 @@ LOADING 1945 batting value from the index:
  8  1945 batting value      8     Luke Appling    38    CHW   18    70    7     0      0     -1     1     8     0.8   2     10    1.0   .546           .505           1.2   0.0   11    "$11,000" "Purchased"          6/H        
  9  1945 batting value      9     Joe Astroth     22    PHA   10    18    -3    0      0     -3     0     -5    -0.6  1     -5    -0.6  .438           .496           -0.2  -0.3  -2    "$2,400"  "Amateur Free Agent" /2H        
 10  1945 batting value      10    Jim Bagby       28    CLE   25    61    -1    0      0     0      5     5     0.6   0     5     0.6   .523           .504           0.6   0.0   5     "$10,200" "Traded"             1       
+```
+mlb_player_full( 1990, "hitting", "playoffs")
+
+``` r
+Getting hitting stats de los playoffs del 1990!
+# A tibble: 81 x 72
+   season_type stat   year  player_id player_name   rank player_full_name player_first_name player_last_name player_use_name player_init_last… team_id team_abbrev team_name    team_short_name league_name league_id position_abbrev
+   <chr>       <chr>  <chr>     <int> <chr>        <int> <chr>            <chr>             <chr>            <chr>           <chr>               <int> <chr>       <chr>        <chr>           <chr>           <int> <chr>          
+ 1 Post Season hitti… 1990     110680 Billy Bates      1 Billy Bates      William           Bates            Billy           B Bates               113 CIN         Cincinnati … Reds            NL                104 X              
+ 2 Post Season hitti… 1990     111410 Sid Bream        2 Sid Bream        Sidney            Bream            Sid             S Bream               134 PIT         Pittsburgh … Pirates         NL                104 1B             
+ 3 Post Season hitti… 1990     115602 Billy Hatch…     3 Billy Hatcher    William           Hatcher          Billy           B Hatcher             113 CIN         Cincinnati … Reds            NL                104 CF             
+ 4 Post Season hitti… 1990     111153 Wade Boggs       4 Wade Boggs       Wade              Boggs            Wade            W Boggs               111 BOS         Boston Red … Red Sox         AL                103 3B             
+ 5 Post Season hitti… 1990     121606 Chris Sabo       5 Chris Sabo       Christopher       Sabo             Chris           C Sabo                113 CIN         Cincinnati … Reds            NL                104 3B             
+ 6 Post Season hitti… 1990     116529 Doug Jennin…     6 Doug Jennings    James             Jennings         Doug            D Jennings            133 OAK         Oakland Ath… Athletics       AL                103 X              
+ 7 Post Season hitti… 1990     119946 Ron Oester       6 Ron Oester       Ronald            Oester           Ron             R Oester              113 CIN         Cincinnati … Reds            NL                104 X              
+ 8 Post Season hitti… 1990     120028 Paul O'Neill     8 Paul O'Neill     Paul              O'Neill          Paul            P O'Neill             113 CIN         Cincinnati … Reds            NL                104 RF             
+ 9 Post Season hitti… 1990     110456 Harold Bain…     9 Harold Baines    Harold            Baines           Harold          H Baines              133 OAK         Oakland Ath… Athletics       AL                103 DH             
+10 Post Season hitti… 1990     110826 Jay Bell        10 Jay Bell         Jay               Bell             Jay             J Bell                134 PIT         Pittsburgh … Pirates         NL                104 SS     
 ```
