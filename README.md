@@ -11,6 +11,12 @@ equipos, con fotos, logos y colores de la liga profesional de Baseball MLB
 ---
 ## Installation
 
+The **mlbstatsR** package can be installed from **CRAN** with:
+
+```{r install_cran, eval=FALSE}
+install.packages("mlbstatsR")
+```
+And
 
 ``` r
 # install.packages("devtools")
