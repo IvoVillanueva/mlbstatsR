@@ -70,9 +70,6 @@ get_mlb_teams()
 6    #CC092F
 > 
 ```
-get_png_logos()
-
-<img width="482" alt="imagen_1" src="https://user-images.githubusercontent.com/56939175/117878970-a8b9db80-b2a6-11eb-97a9-0671c7657b89.png">
 
 get_mlb_bateo()
 <img width="980" alt="imagen_2" src="https://user-images.githubusercontent.com/56939175/117879187-f59db200-b2a6-11eb-83bf-a648b8a7d2dc.png">
