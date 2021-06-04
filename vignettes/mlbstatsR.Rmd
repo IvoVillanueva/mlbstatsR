@@ -6,24 +6,155 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
-Este es un package que tiene como objetivo facilitar las fotos de los jugadores, los logos, los colores y 
-estadisticas de los equipos y de los jugadores de la liga profesional de Baseball MLB, para visualizaciones y gráficas
 
-
-```{r eval=FALSE}
-library(mlbstatsR)
-get_mlb_teams()
-```
-```{r eval=FALSE}
-library(mlbstatsR)
-get_mlb_players()
-```
-```{r eval=FALSE}
-library(mlbstatsR)
-get_png_logos()
-```
-```{r eval=FALSE}
-library(mlbstatsR)
-get_mlb_bateo(2001 )
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
 ```
 
+```{r setup}
+library(mlbstatsR)
+```
+
+**mlbstatsR** es un package que tiene como objetivo facilitar las estadisticas, fotos de los jugadores, los logos y los colores de los equipos de la liga profesional de Baseball MLB, para visualizaciones y graficas
+
+## Que contiene el package
+
+El package contiene las siguientes funciones:
+
+-   get_mlb_teams()
+
+-   get_mlb_players()
+
+-   get_png_logos()
+
+-   get_mlb_bateo()
+
+-   get_mlb_pitcheo()
+
+-   mlb_team_stats()
+
+-   get_reference_players_mlb()
+
+-   get_reference_team_mlb()
+
+-   espn_player_stats()
+
+-   espn_team_stats()
+
+-   mlb_player_full()
+
+## Algunos Ejemplos
+
+### get_reference_players_mlb()
+
+Descarga de la página ***baseball-reference*** desde el año **1876** las estadsiticas de los jugadores en ***Batting Pitching*** y ***Fielding***.
+
+En ***Batting*** podemos seleccionar ***standard*****, *advanced, value, probability, ratio, baserunning, pitchesbatting, neutralizedbatting, situational, baserunning, cumulative .*** Como por ejemplo :
+
+***get_reference_players_mlb(1945, "batting", "value")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+get_reference_players_mlb(1945,"batting", "value")
+```
+
+En ***Pitching*** podemos seleccionar ***advanced, value, probability, ratio, battingagainst, startingpitching, standard, reliefpitching, neutralizedpitching, baserunning o cumulative.*** Como por ejemplo :
+
+***get_reference_players_mlb(1965, "pitching", "ratio")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+get_reference_players_mlb(1965,"pitching", "ratio")
+```
+
+En ***Fielding*** podemos seleccionar ***appearances, pitcher, catcher, firstbase, secondbase, thirdbase, shortstop, leftfield, centerfield, rightfield, outfield.*** Como por ejemplo :
+
+***get_reference_players_mlb(2002, "fielding", "appearances")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+get_reference_players_mlb(2002,"fielding", "appearances")
+```
+
+### get_reference_team_mlb()
+
+Descarga de la página ***baseball-reference*** desde el año **1876** las estadisticas de los equipos en ***Batting Pitching*** y ***Fielding***.
+
+En ***Batting*** podemos seleccionar ***standard, advanced, value, probability, ratio, baserunning, pitchesbatting, neutralizedbatting, situational.*** Como por ejemplo :
+
+***get_reference_team_mlb(2021,"batting", "advanced")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+get_reference_team_mlb(2021,"batting", "advanced")
+
+```
+
+En ***Pitching*** podemos seleccionar ***standard, batting, value, probability, ratio, battingagainst, startingpitching, reliefpitching, basesituation.*** Como por ejemplo:
+
+***get_reference_team_mlb(1980, "pitching", "battingagainst")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+get_reference_team_mlb(1980,"pitching", "battingagainst")
+
+```
+
+En ***Fielding*** podemos seleccionar ***standard, appearances, pitcher, catcher, firstbase, secondbase, thirdbase, shortstop, leftfield, centerfield, rightfield, outfield.*** Ejemplo:
+
+***get_reference_team_mlb(1980, "fielding", "centerfield")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+get_reference_team_mlb(1980,"fielding", "centerfield")
+
+```
+
+### espn_player_stats()
+
+Descarga de la pagina de **ESPN** las estadisticas de los jugadores de la **MLB** desde el año 2002. Podemos seleccionar ***Regular*** o ***Playoffs*** y las estadisticas de ***batting, pitching*** y ***fielding.***
+
+#### Regular
+
+***espn_player_stats(2015, "pitching", "regular")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+ espn_player_stats(2015, "pitching", "regular")
+```
+
+#### Playoffs
+
+***espn_player_stats(2004, "batting", "playoffs")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+espn_player_stats(2004, "batting", "playoffs")
+```
+
+### espn_team_stats()
+
+Descarga de la pagina de **ESPN** las estadisticas de los equipos de la **MLB** desde el año 2002. Podemos seleccionar ***Regular*** o ***Playoffs*** y las estadisticas de ***batting, pitching*** y ***fielding.***
+
+#### Regular
+
+***espn_team_stats(2021, "fielding", "regular")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+ espn_team_stats(2021, "fielding", "regular")
+```
+
+#### Playoffs
+
+***espn_team_stats(2011, "fielding", "playoffs")***
+
+```{r echo=FALSE}
+library(mlbstatsR)
+espn_team_stats(2011, "fielding", "playoffs")
+```
+
+Espero que sea util
