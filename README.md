@@ -1,6 +1,10 @@
 
 
 # mlbstatsR
+<img width="757" alt="Captura de pantalla 2021-08-31 a las 15 42 48" src="https://user-images.githubusercontent.com/56939175/132494420-9d51d709-4521-45d9-a161-8e3f1e470678.png">
+
+![victoriasvsdivision](https://user-images.githubusercontent.com/56939175/132494008-9dde7e22-91d1-44c1-875f-c6f30da3171e.png)
+
 ![netratingmlb-01](https://user-images.githubusercontent.com/56939175/117880956-f6cfde80-b2a8-11eb-8d75-5c6948a7a284.png)
 
 ![wardf_heads](https://user-images.githubusercontent.com/56939175/117881069-1a932480-b2a9-11eb-83dc-006fa0a1dcef.png)
