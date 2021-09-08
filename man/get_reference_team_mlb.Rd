@@ -31,8 +31,8 @@ Estadisticas de los equipos de la MLB en Baseball Reference
 # 'standard', 'advanced', 'value', 'probability', 'ratio', 'baserunning', 'batting',
 # 'battingagainst', 'startingpitching'
 #
-# Get las estadisticas de pitcheo de 1903
-get_reference_team_mlb(1903, "pitching", "standard")
+# Get las estadisticas de pitcheo de 1873
+ \donttest{get_reference_team_mlb(2015, "pitching", "standard")}
 
 
 }

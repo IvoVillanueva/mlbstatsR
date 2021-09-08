@@ -40,6 +40,8 @@ El package contiene las siguientes funciones:
 
 -   get_reference_team_mlb()
 
+-   get_reference_team_standings()
+
 -   espn_player_stats()
 
 -   espn_team_stats()
@@ -110,6 +112,16 @@ En ***Fielding*** podemos seleccionar ***standard, appearances, pitcher, catcher
 ```{r echo=FALSE}
 library(mlbstatsR)
 get_reference_team_mlb(1980,"fielding", "centerfield")
+
+```
+
+### get_reference_team_standings()
+
+Nos devuelve la clasificación de todas las maneras posibles y proyecciones de victorias
+
+```{r echo=FALSE}
+library(mlbstatsR)
+get_reference_team_standings(1999)
 
 ```
 

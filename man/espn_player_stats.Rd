@@ -28,7 +28,7 @@ Estadisticas de los jugadores de la MLB en ESPN
 # stats = batting, pitching, fielding
 # season_type = regular o playoffs
 # Get las estadisticas de pitcheo en playoffs de 2003
-espn_player_stats(2015, "pitching", "regular")
+\donttest{espn_player_stats(2012, "pitching", "playoffs")}
 
 
 

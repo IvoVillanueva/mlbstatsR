@@ -12,7 +12,7 @@
 #' # year = año que queremos visualizar
 #' # quiet = indica que se esta cargando la tabla
 #' # Get las estadisticas de bateo del 1975
-#' get_mlb_bateo(1975)
+#' \donttest{get_mlb_bateo(1975)}
 #'
 #'
 
@@ -30,7 +30,7 @@ get_mlb_bateo <- function(year, quiet= FALSE){
   }
 
   if(isFALSE(quiet)){
-    message(glue::glue("Cargando {year} con 425 players"))
+    message(glue::glue("Cargando {year} con hasta 400 players"))
   }
   urls <- paste0("https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=prod&season=",
                  year,"&sportId=1&stats=season&group=hitting&gameType=R&offset=",

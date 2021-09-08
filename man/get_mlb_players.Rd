@@ -13,6 +13,6 @@ Photos, logos and colors
 MLB Profesional league baseball data table with Photos, logos and colors
 }
 \examples{
-get_mlb_players()
+\donttest{get_mlb_players()}
 
 }

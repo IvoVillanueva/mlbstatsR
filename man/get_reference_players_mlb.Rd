@@ -31,7 +31,7 @@ Estadisticas de los jugadores de la MLB en Baseball Reference
 # 'advanced', 'value', 'probability', 'ratio', 'baserunning', 'batting', 'battingagainst',
 # 'startingpitching',
 # Get las estadisticas de pitcheo de 1903
-# get_reference_playeres_mlb (1903, "pitching", "standard")
-
+\donttest{get_reference_players_mlb(1987, "batting", "standard")
+}
 
 }

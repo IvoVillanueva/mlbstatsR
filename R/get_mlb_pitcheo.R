@@ -12,8 +12,7 @@
 #' # year = año que queremos visualizar
 #' # quiet = indica que se esta cargando la tabla
 #' # Get las estadisticas de pitcheo del 1975
-#' get_mlb_pitcheo(1975)
-#'
+#' \donttest{get_mlb_pitcheo(1975)}
 #'
 
 get_mlb_pitcheo<- function(year, quiet= FALSE){
@@ -29,7 +28,7 @@ get_mlb_pitcheo<- function(year, quiet= FALSE){
   }
 
   if(isFALSE(quiet)){
-    message(glue::glue("Cargando {year} con 425 players"))
+    message(glue::glue("Cargando {year} con hasta 425 players"))
   }
 
 

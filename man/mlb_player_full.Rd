@@ -25,6 +25,6 @@ Estadistica oficial bateo y pitcheo de los jugadores de la MLB (baseball)
 # season_type = 'regular', 'playoffs', 'wildcard',
 # 'divisionales', 'championship','mundiales' o 'pretemporada
 # Get las estadisticas de pitcheo del 2018
-# mlb_team_stats(2018, "pitching", "regular")
+\donttest{mlb_team_stats(2018, "pitching", "regular")}
 
 }

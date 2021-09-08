@@ -14,7 +14,7 @@
 #' # stats = batting, pitching, fielding
 #' # season_type = regular o playoffs
 #' # Get las estadisticas de pitcheo en playoffs de 2003
-#' espn_team_stats(2015, "pitching", "regular")
+#' \donttest{espn_team_stats(2015, "pitching", "regular")}
 #'
 #'
 

@@ -21,7 +21,7 @@ Estadistica oficial de bateo de la MLB (baseball)
 # year = año que queremos visualizar
 # quiet = indica que se esta cargando la tabla
 # Get las estadisticas de bateo del 1975
-get_mlb_bateo(1975)
+\donttest{get_mlb_bateo(1975)}
 
 
 }

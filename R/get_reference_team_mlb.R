@@ -17,8 +17,8 @@
 #' # 'standard', 'advanced', 'value', 'probability', 'ratio', 'baserunning', 'batting',
 #' # 'battingagainst', 'startingpitching'
 #' #
-#' # Get las estadisticas de pitcheo de 1903
-#' get_reference_team_mlb(1903, "pitching", "standard")
+#' # Get las estadisticas de pitcheo de 1873
+#'  \donttest{get_reference_team_mlb(2015, "pitching", "standard")}
 #'
 #'
 
@@ -51,7 +51,7 @@ if (stats == "fielding" & !type %in% c('standard', 'appearances', 'pitcher', 'ca
 
 if (stats == "batting" & !type %in% c('standard', 'advanced', 'value', 'probability', 'ratio', 'baserunning',
                                       'pitchesbatting', 'neutralizedbatting', 'situational')) {
-  stop("Please choose type of 'standard', 'standard', 'advanced', 'value', 'probability', 'ratio', 'baserunning',
+  stop("Please choose type of 'standard', 'advanced', 'value', 'probability', 'ratio', 'baserunning',
                                         'pitchesbatting', 'neutralizedbatting', 'situational'")
 }
 

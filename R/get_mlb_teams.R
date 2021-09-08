@@ -6,7 +6,7 @@
 #' @export
 #' @import utils
 #' @examples
-#' get_mlb_teams()
+#' \donttest{get_mlb_teams()}
 #'
 get_mlb_teams <- function() {
 
