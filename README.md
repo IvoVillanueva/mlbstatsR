@@ -25,6 +25,8 @@ And
 ``` r
 # install.packages("devtools")
 devtools::install_github("IvoVillanueva/mlbstatsR")
+CRAN:
+# install.packages("mlbstatsR")
 ```
 
 ## Example
