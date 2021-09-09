@@ -1,6 +1,8 @@
 
 
+
 # mlbstatsR
+![pvsa](https://user-images.githubusercontent.com/56939175/132737480-281af76b-a83c-4683-893f-f9e17da7aaef.png)
 <img width="757" alt="Captura de pantalla 2021-08-31 a las 15 42 48" src="https://user-images.githubusercontent.com/56939175/132494420-9d51d709-4521-45d9-a161-8e3f1e470678.png">
 
 ![victoriasvsdivision](https://user-images.githubusercontent.com/56939175/132494008-9dde7e22-91d1-44c1-875f-c6f30da3171e.png)
