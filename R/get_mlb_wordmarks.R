@@ -51,4 +51,3 @@ get_mlb_wordmarks <- function() {
   return(df)
   
 }
-get_mlb_wordmarks()
